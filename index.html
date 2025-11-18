@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KFA TOBACCO — Landing Page</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Meta -->
+  <meta name="description" content="KFA Tobacco — Tembakau pilihan, kualitas premium. Landing page promo.">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">KFA <span class="logo-strong">TOBACCO</span></div>
+      <nav class="nav">
+        <a href="#produk">Produk</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#kontak" class="btn btn-sm">Hubungi</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <h1 class="hero-title">Tembakau Premium untuk Rasa Otentik</h1>
+        <p class="hero-sub">KFA Tobacco menghadirkan beragam tembakau berkualitas — cocok untuk blend profesional dan pemeracik rumahan.</p>
+
+        <div class="hero-cta">
+          <a href="#produk" class="btn btn-primary">Lihat Produk</a>
+          <a href="#kontak" class="btn btn-ghost">Pesan Sekarang</a>
+        </div>
+
+        <div class="countdown" aria-live="polite">
+          <div class="countdown-label">Promo Berakhir Dalam:</div>
+          <div id="countdown" class="countdown-timer">
+            <div><span class="num" id="days">--</span><small>Hari</small></div>
+            <div><span class="num" id="hours">--</span><small>Jam</small></div>
+            <div><span class="num" id="minutes">--</span><small>Menit</small></div>
+            <div><span class="num" id="seconds">--</span><small>Detik</small></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="promo-card">
+          <img src="img/ntr.jpg" alt="Promo KFA Tobacco">
+          <div class="promo-badge">Diskon 20% • Sampai 31 Des 2025</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Produk Unggulan -->
+  <section id="produk" class="section">
+    <div class="container">
+      <h2 class="section-title">Produk Unggulan</h2>
+      <p class="section-sub">Pilihan terbaik dari ladang ke kemasan.</p>
+
+      <div class="card-grid">
+        <article class="card reveal">
+          <img src="img/virgin.jpg" alt="Tembakau Virginia">
+          <div class="card-body">
+            <h3>Tembakau Virginia</h3>
+            <p>Warna kuning keemasan — rasa manis dan aroma ringan. Cocok untuk rokok putih dan pipe tobacco.</p>
+            <div class="card-actions">
+              <button class="btn btn-outline">Lihat Detail</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <img src="img/burley.jpg" width="100px" height="100px alt="Tembakau Burley">
+          <div class="card-body">
+            <h3>Tembakau Burley</h3>
+            <p>Warna coklat muda-gelap. Rasa earthy, sering dipakai untuk kretek dan campuran blend.</p>
+            <div class="card-actions">
+              <button class="btn btn-outline">Lihat Detail</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <img src="img/tembakau.jpg" alt="Tembakau Oriental">
+          <div class="card-body">
+            <h3>Tembakau Oriental</h3>
+            <p>Aroma khas, pahit-manis seimbang. Sering jadi pelengkap pada blend berkualitas.</p>
+            <div class="card-actions">
+              <button class="btn btn-outline">Lihat Detail</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tentang Kami -->
+  <section id="tentang" class="section light">
+    <div class="container about-grid">
+      <div class="about-img reveal">
+        <img src="img/produk.jpg" alt="Tentang KFA Tobacco">
+      </div>
+      <div class="about-text reveal">
+        <h2>Tentang KFA Tobacco</h2>
+        <p>KFA Tobacco berdiri dengan komitmen menghadirkan tembakau berkualitas, diproses secara hati-hati untuk menjaga aroma dan cita rasa. Kami bekerjasama dengan petani terpilih untuk memastikan sumber yang berkelanjutan dan etis.</p>
+        <ul class="list">
+          <li>Kontrol kualitas ketat</li>
+          <li>Ragam produk untuk berbagai kebutuhan</li>
+          <li>Pengiriman cepat ke seluruh Indonesia</li>
+        </ul>
+        <a href="#kontak" class="btn btn-primary">Hubungi Kami</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Besar -->
+  <section class="cta-large reveal">
+    <div class="container cta-inner">
+      <div>
+        <h2>Siap Mencoba Produk Kami?</h2>
+        <p>Dapatkan penawaran khusus untuk pembelian pertama — chat kami lewat WhatsApp.</p>
+      </div>
+      <div>
+        <!-- Ganti nomor WA di href dengan nomor kamu (format internasional tanpa tanda +) -->
+        <a id="whatsappBtn" href="https://wa.me/6281234567890?text=Saya%20ingin%20memesan%20produk%20KFA%20Tobacco" class="btn btn-whatsapp" target="_blank" rel="noopener">Chat WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year">2025</span> KFA Tobacco</div>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+   <!-- Modal Produk -->
+<div id="productModal" class="modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+
+    <img id="modalImage" src="" alt="Produk" class="modal-img">
+    <h2 id="modalTitle"></h2>
+    <p id="modalDesc"></p>
+
+    <a id="modalWA" href="#" target="_blank" class="btn btn-primary modal-wa">Pesan via WhatsApp</a>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
